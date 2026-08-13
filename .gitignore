@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local database
+agentic.db
+*.db
+
+# Logs & process files
+*.log
+*.pid
+
+# OS
+.DS_Store
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+
+# Claude/session
+.claude/
