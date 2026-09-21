@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     META_ACCESS_TOKEN: str = ""
     META_AD_ACCOUNT_ID: str = ""
 
-    DEFAULT_BRAND_NAME: str = "Swiss Military"
+    DEFAULT_BRAND_NAME: str = "Demo Brand"
 
     EASYECOM_API_KEY: str = ""
     EASYECOM_EMAIL: str = ""

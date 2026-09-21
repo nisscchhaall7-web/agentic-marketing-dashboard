@@ -34,7 +34,7 @@ const CHANNEL_COLOR_PALETTE = [
   '#fb923c', '#22d3ee', '#facc15', '#c084fc', '#fb7185',
 ];
 
-const BRANDS = ["Acme Corp", "Globex", "Initech", "Swiss Military"];
+const BRANDS = [process.env.NEXT_PUBLIC_BRAND_NAME || "Demo Brand"];
 const FUNNEL_STAGES = ["Awareness", "Consideration", "Conversion"];
 
 // ─── Metric Definitions ───────────────────────────────────────────────────────
